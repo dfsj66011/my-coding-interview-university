@@ -1,38 +1,4 @@
-# 编程面试大学
-
-> 原先我为了成为一个软件工程师而建立这份简单的学习主题清单， 但这份清单随着时间的推移而膨胀成今天这样。在做完这份清单上的每个目标后，[我成为了 Amazon 的软件开发工程师](https://startupnextdoor.com/ive-been-acquired-by-amazon/?src=ciu)! 你或许不需要像我一样学习这么多。但是，让你成为一位称职工程师所需要的知识都在这里了。
->
->我每天自学8~12小时，这样持续了好几个月。这是我的故事：[为什么我为了 Google 面试而自学了8个月](https://medium.freecodecamp.org/why-i-studied-full-time-for-8-months-for-a-google-interview-cc662ce9bb13)。
->
-> **请注意:** 你不需要像我一样那么努力学习。我在一些不必要的事情上浪费了很多时间。关于这个问题下面有更多信息。我会帮助你节省宝贵的时间，让你达到目标。
-> 在这份清单内的主题会让你拥有足够的知识去面对几乎每家软件公司的技术面试，包括科技巨头：Amazon、Facebook、Google，以及 Microsoft。
->
-> **祝你好运!**
-
-<div align="center">
-	<hr />
-    <p>
-        <a href="https://github.com/sponsors/jwasham"><strong>成为赞助商</strong> 并支持编程大学！</a>
-    </p>
-    <hr />
-</div>
-
-## 这是？
-
-![白板上编程 ———— 来自 HBO 频道的剧集，“硅谷”](https://d3j2pkmjtin6ou.cloudfront.net/coding-at-the-whiteboard-silicon-valley.png)
-
-这是我为成为一家大公司的软件工程师制定的多月学习计划。
-
-**要求:** 
-* 一点编程经验（变量、循环、方法/函数等）
-* 耐心
-* 时间
-
-注意，这是一份关于 **软件工程** 的学习计划，而不是前端工程或全栈开发。
-这些职业路径有很多详细的路线图和课程资料可以在其他地方找到（请参阅 https://roadmap.sh/ 获取更多信息）。
-
-在大学计算机科学专业中，有很多知识需要学习，但是只掌握大约75%的内容就足够应对面试了，这也是我在这里涵盖的内容。
-如果你想进行完整的自学计算机科学项目，可以参考Kamran Ahmed的计算机科学路线图：https://roadmap.sh/computer-science。
+# 编程大学
 
 ---
 
@@ -40,9 +6,6 @@
 
 ### 学习计划
 
-- [这是？](#这是)
-- [为何要用到它？](#为何要用到它)
-- [如何使用它](#如何使用它)
 - [不要觉得自己不够聪明](#不要觉得自己不够聪明)
 - [相关视频资源](#相关视频资源)
 - [选择编程语言](#选择编程语言)
@@ -161,62 +124,6 @@
 
 ---
 
-## 为何要用到它？
-
-如果你想在一家大公司担任软件工程师，这些是你必须了解的事情。
-
-如果你错过了计算机科学的学位，就像我一样，这将帮助你迎头赶上，并节省四年的时间。
-
-当我开始这个项目时，我对堆栈和堆没有任何了解，
-也不知道大O表示法或者关于树的任何东西，也不知道如何遍历图形。
-如果让我编写一个排序算法，相信我它会很糟糕。
-我曾经使用过的每种数据结构都是内置在语言中的，并且我完全不知道它们在底层是如何工作的。
-除非运行中的进程出现“内存不足”错误，否则我从来没有管理过内存，并且那时候就需要找到一种解决方法。
-在我的生活中，我使用过一些多维数组和成千上万个关联数组，但从未从头开始创建数据结构。
-
-这是一个漫长的计划，以至于花费了我数月的时间。若你早已熟悉大部分的知识，那么也许能节省大量的时间。
-
-## 如何使用它
-
-下面所有的东西都只是一个概述。因此，你需要由上而下逐一地去处理它。
-
-在学习过程中，我使用 GitHub 特殊语法的 Markdown 去检查计划的进展，包括使用包含任务进度的任务列表。
-- [更多关于 Github-flavored Markdown 的详情](https://guides.github.com/features/mastering-markdown/#GitHub-flavored-markdown)
-
-### 如果你不想使用 Git
-
-在该页面上，单击顶部附近的 Code 按钮，然后单击“Download ZIP”。解压文件，就可以使用文本文件了。
-
-如果你打开一个代码编辑器，你会看到所有格式都很好。
-
-![How to download the repo as a zip file](https://d3j2pkmjtin6ou.cloudfront.net/how-to-download-as-zip.png)
-
-### 如果你不介意 Git
-
-创建一个新的分支，这样你就可以检查类似这样的项目了，只需在方括号中放入一个x：[x]
-
-1. 在 GitHub 上 Fork 该仓库： 点击 Fork 按钮，将 `https://github.com/jwasham/coding-interview-university` 仓库复制到你的 GitHub 账号中。
-
-    ![Fork the GitHub repo](https://d3j2pkmjtin6ou.cloudfront.net/fork-button.png)
-
-2. 克隆项目到本地：
-
-    ```
-    git clone git@github.com:<your_github_username>/coding-interview-university.git
-    cd coding-interview-university
-    git remote add upstream https://github.com/jwasham/coding-interview-university
-    git remote set-url --push upstream DISABLE  # 这样你就不会将个人进展推回到原始仓库了。
-    ```
-
-3. 在你完成了一些修改后，在框框中打 x：
-
-    ```
-    git commit -am "Marked personal progress"
-    git pull upstream main  # 将您的分支与原始仓库中的更改保持最新
-      
-    git push # just pushes to your fork
-    ```
-
 ## 不要觉得自己不够聪明
 
 - 大多数成功的软件工程师都非常聪明，但他们都有一种觉得自己不够聪明的不安全感。
@@ -224,68 +131,6 @@
     - [天才程序员的神话](https://www.youtube.com/watch?v=0SARbwvhupQ)
     - [不要单打独斗：面对技术中的隐形怪物](https://www.youtube.com/watch?v=1i8ylq4j_EY)
 
-## 相关视频资源
-
-部分视频只能通过在 Coursera 或者 Edx 课程上注册登录才能观看。
-这些视频被称为网络公开课程（MOOC）。有时候某些课程需要等待好几个月才能获取，这期间你无法观看这些课程的影片。
-
-很感谢你能帮我把网络公开课程的视频链接转换成公开的，可持续访问的视频源，
-比如 YouTube 视频，以代替那些在线课程的视频。
-此外，一些大学的讲座视频也是我所青睐的。
-
-## 选择编程语言
-
-你需要为你做的编程面试选择一种编程语言，
-但你也需要找到一种可以用来学习计算机科学概念的语言。
-
-最好是同一种语言，这样你只需精通其中一种。
-
-### 对于这个学习计划
-
-在这个学习计划中，我主要使用了两种编程语言：C和Python。
-
-* C: 非常底层。它允许你处理指针和内存的分配与释放，因此你能够深入理解数据结构和算法。
-    在像Python或Java这样的高级语言中，这些细节被隐藏起来。在日常工作中，这是很好的，
-    但当你学习这些底层数据结构时，感受它们与计算机硬件的联系也是非常有益的。
-    - C 语言无处不在。在你学习的过程中，你会在书籍、讲座、视频以及**任何地方**看到C语言的例子。
-    - [《C程序设计语言（第2版）》](https://www.amazon.com/Programming-Language-Brian-W-Kernighan/dp/0131103628)
-        - 这是一本简短的书，但它会让你很好地掌握C语言，只要稍微练习一下，
-            你很快就能熟练使用。理解C语言有助于你了解程序和内存是如何工作的。
-        - 你不需要深入研究这本书（甚至不用读完它）。只要阅读到你感觉舒服，并能写一些C语言的代码就可以了。
-        - [书中问题的答案](https://github.com/lekkas/c-algorithms)
-* Python: 现代且非常灵活，我学习它是因为它非常实用，同时在面试中也能让我写更少的代码。
-
-这是我的个人喜好，当然你可以根据自己的偏好来选择。
-
-也许你并不需要，但以下是一些学习新编程语言的网站：
-- [Exercism](https://exercism.org/tracks)
-- [Codewars](http://www.codewars.com)
-- [HackerEarth](https://www.hackerearth.com/for-developers/)
-- [Scaler Topics (Java, C++)](https://www.scaler.com/topics/)
-
-### 对于你的编程面试
-
-你可以在编程这一环节，使用一种自己用起来较为舒适的语言去完成编程，但对于大公司，你只有三种固定的选择：
-
-- C++
-- Java
-- Python
-
-你也可以使用下面两种编程语言，但可能会有某些限制，你需要事先查明：
-
-- JavaScript
-- Ruby
-
-这是我写的一篇关于选择面试语言的文章：
-[为编程面试选择一种语言](https://startupnextdoor.com/important-pick-one-language-for-the-coding-interview/)。
-这是我发布帖子所基于的原始文章： [Choosing a Programming Language for Interviews](https://web.archive.org/web/20210516054124/http://blog.codingforinterviews.com/best-programming-language-jobs/)
-
-你需要对你所选择的语言感到非常舒适且足够了解。
-
-更多关于语言选择的阅读：
-- [选择适合你的编程面试的语言](http://www.byte-by-byte.com/choose-the-right-language-for-your-coding-interview/)
-
-[在此查看相关语言的资源](../programming-language-resources.md)
 
 ## 数据结构和算法的书籍
 
@@ -1905,7 +1750,3 @@
 - [2015: 大规模高可用性：构建Google广告数据基础设施](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/44686.pdf)
 - [2015: 开发人员如何搜索代码：一个案例研究](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/43835.pdf)
 - 更多论文： [1,000篇论文](https://github.com/0voice/computer_expert_paper)
-
-## LICENSE
-
-[CC-BY-SA-4.0](https://github.com/jwasham/coding-interview-university/blob/main/LICENSE.txt)
