@@ -151,17 +151,6 @@
     - 很 Python 的代码
     - 我的读书报告：https://startupnextdoor.com/book-report-data-structures-and-algorithms-in-python/
 
-### Java
-
-你的选择：
-
-- Goodrich, Tamassia, Goldwasser
-    - [Java数据结构与算法](https://www.amazon.com/Data-Structures-Algorithms-Michael-Goodrich/dp/1118771338/)
-- Sedgewick and Wayne:
-    - [算法（第4版）](https://www.amazon.com/Algorithms-4th-Robert-Sedgewick/dp/032157351X/)
-    - 免费Coursera课程，涵盖该书内容（由作者授课！）：
-        - [算法I](https://www.coursera.org/learn/algorithms-part1)
-        - [算法II](https://www.coursera.org/learn/algorithms-part2)
 
 ### C++
 
